@@ -22,7 +22,7 @@ def load_original_dataset(path="Original_Dataset.csv"):
 
 @st.cache_data
 def load_doc_vs_disease(path="Doctor_Versus_Disease.csv"):
-    df = pd.read_csv(path, header=None, encoding='utf-8', engine='python')
+    df = pd.read_csv(path, header=None, encoding='ISO-8859-1', engine='python')
     # create mapping dict: disease -> specialist
     try:
         mapping = df.set_index(0).to_dict()[1]

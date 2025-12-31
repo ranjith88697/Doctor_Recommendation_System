@@ -8,3 +8,14 @@ Execution Steps:
 4. Once application built, select the symptoms from drop down as input
 5. The result(Disease prediction and Doctor recommendation) will be displayed.
  
+Input Files:
+
+Original_Dataset.csv
+Doctor_Versus_Disease.csv
+Doctor_Specialist.csv
+specialist_count.csv
+riga_doctors_sample.xlsx
+Disease_Description.csv
+
+.py File: 
+Doc_Rec_Git.py
